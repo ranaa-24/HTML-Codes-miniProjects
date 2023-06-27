@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(16, 9, 24); font-size: x-large; color: beige;">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rana Dey</td>
+                <td>19</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Lina Sha</td>
+                <td>16</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Anya kocho</td>
+                <td>19</td>
+                <td>Japan</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table - 2 [rowspan]</p>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rana Dey</td>
+                <td>19</td>
+                <td rowspan="2">India</td>
+            </tr>
+            <tr>
+                <td>Lina Sha</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Anya kocho</td>
+                <td>19</td>
+                <td>Japan</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p>Table - 3 [colspan]</p>
+    
+    <table border="1">
+        <caption style="border: 2px solid;">Best Google team</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Jobs</th>
+                <th>Experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Striver</td>
+                <td>Maneger</td>
+                <td>SDE 1</td>
+                <td>7 years</td>
+            </tr>
+            <tr>
+                <td>Rana</td>
+                <td>senior SDE</td>
+                <td>Full stack Developer</td>
+                <td rowspan="2"> 4 years</td>
+            </tr>
+            <tr>
+                <td>Lina </td>
+                <td colspan="2">senior web developer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table - 4</p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zukerberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+           
+            <tfoot>
+                <tr>
+                    <td colspan="3" align="center">Total Expenses</td>
+                    <td>$4600</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <p>Table - 5</p>
+
+    <table border="1">
+        
+        <thead>
+            <tr>
+                <th rowspan="3"> Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Shadule</th>
+                <th rowspan="2">Topics</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2"> Monday</td>
+                <td rowspan="2"> 8:00am</td>
+                <td rowspan="2"> 5:00pm</td>
+                <td> Intro to XML</td>
+            </tr>
+
+            <tr>
+                <td>validity DTD and Relax NG</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00am</td>
+                <td>11:00am</td>
+                <td rowspan="2">Xpath</td>
+            </tr>
+            <tr>
+                <td>11:00am</td>
+                <td>2:0pm</td>
+            </tr>
+            <tr>
+                <td>2:00pm</td>
+                <td>5:00pm</td>
+                <td rowspan="1">XSL Transformation</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>
