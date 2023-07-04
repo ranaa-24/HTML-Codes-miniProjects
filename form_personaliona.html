@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <form autocomplete="on" >
+
+    <fieldset style="background-color: rgb(255, 254, 217);">
+        <legend style="font-size: xx-large;">Personaliona!</legend>
+            <br><br>
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname">
+            <br> 
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname">
+            <br>
+            <br>
+            <label for="pass">Create a Password : </label><br>
+            <input type="password" name="pass" id="pass">
+            <p>Please select your Gender : </p>
+            <input type="radio" id="male" value="male" name="gender">
+            <label fr="male">Male</label>
+          <br>
+          <input type="radio" id="female" value="female" name="gender">
+          <label for="female">Female</label>
+            <br><br>
+            
+            <p>Tech Stack </p>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">JavaScript</label>
+            <input type="checkbox" name="none" id="non">
+            <label for="non">Others</label>
+            
+            <br>
+            <br>
+            <label for="email">Email : </label>
+            <input type="text" name="email" id="email" placeholder="xyz@123email.com">
+            
+            <br><br>
+            <label for="data">Enter your Date Of Birth : </label>
+            <input type="date" id="date" name="date">
+            
+            <br><br>
+            <label for="fav lang">What language do you use in DSA : </label>
+            <select name="fav lang" id="fav lang">
+                <option value="c"> C </option>
+                <option value="cpp"> C++ </option>
+                <option value="java"> java </option>
+                <option value="py"> Python </option>
+                <option value="js"> JavaScript </option>
+                <option value="go"> Go </option>
+                <option value="other"> Other </option>
+            </select>
+            <br><br>
+
+            
+            <label for="about">Tell us a litle desciption about yourself</label><br>
+            <textarea name="about" id="about" cols="30" rows="10" placeholder="enter description..."></textarea>
+            <br><br>
+
+            <label for="favcolor">Pick your favorite color : </label>
+            <input type="color" name="favcolor" id="favcolor">
+            <br><br>
+
+            <label for="pfp">Upload a Profile Picture : </label>
+            <input type="file" id="pfp" name="pfp">
+
+            <br><br>
+            <button type="button" onclick="alert('Thanks for Applying')">Click me!</button>
+            <br><br><br>
+            <!-- <input type="submit" value="Submit"> -->
+            <input type="image" src="https://www.transparentpng.com/download/submit-button/1u2PSi-submit-button-free-download.png"
+            width="100px" height="30px" alt="Submit">
+            <br>
+            <input type="reset">
+        </fieldset>
+
+        <!-- a second field of form will be created -->
+        <!-- <fieldset>
+            <legend>Dummmy</legend>
+            <label for="name">Name</label>
+            <input type="text">
+        </fieldset> -->
+    </form>
+
+
+    
+</body>
+</html>
