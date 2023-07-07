@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application - Hash Define</title>
+</head>
+<body>
+    <form >
+        <h1>Job Application</h1>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail"><br>
+        
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <br>
+        <label for="resume">Resume:</label><br>
+        <input type="file" id="resume" name="resume"><br>
+
+        <br>
+        <label for="exp">Experience(Years)</label><br>
+        <input type="number" id="exp" min="2" max="50" name="experience">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" id="html" name="skills" value="html">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="CSS" name="skills" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="checkbox" id="JavaScript" name="skills" value="JavaScript">
+            <label for="JavaScript">JavaScript</label><br>
+        </fieldset>
+        <br>
+
+        <label for="edu">Highest Education</label><br>
+        <select name="education" id="edu">
+            <option value="sc">School</option>
+            <option value="hs">High School</option>
+            <option value="ug">Under Gradutaion</option>
+            <option value="pg">Post Graduation</option>
+            <option value="phd">Phd</option>
+        </select>
+
+        <p>Availability: </p>
+        <input type="radio" name="jobType" id="fullTime">
+        <label for="fullTime">Full-Time</label><br>
+
+        <input type="radio" name="jobType" id="partTime">
+        <label for="partTime">Part-Time</label><br>
+
+        <br>
+        <label for="comment">Additional Comments : </label><br>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+
+
+        <center><input type="image" name="submit" id="sumbit" src="https://freepngimg.com/thumb/categories/1428.png" width="100px" ></center>
+    </form>
+</body>
+</html>
